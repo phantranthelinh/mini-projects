@@ -16,7 +16,7 @@
             <th><a target="_blank" href="https://serene-golick-757b90.netlify.app/">Live demo</a></th>
         </tr>
       <tr>
-            <th>2</th>
+            <th>3</th>
             <th><a href="https://github.com/phantranthelinh/mini-projects/tree/main/rotating%20navigation">Rotating Navigation</a></th>
             <th><a target="_blank" href="https://relaxed-varahamihira-5cb6d2.netlify.app/">Live demo</a></th>
         </tr>
