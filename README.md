@@ -8,6 +8,6 @@
         <tr>
             <th>1</th>
             <th>Expanding cards</th>
-            <th><a href="https://blissful-mclean-81e603.netlify.app/">Live demo</a></th>
+            <th><a target="_blank" href="https://blissful-mclean-81e603.netlify.app/">Live demo</a></th>
         </tr>
     </table>
