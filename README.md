@@ -1,4 +1,4 @@
-## Projects in 50 Days - HTML/CSS and JavaScript
+## Mini Projects - HTML/CSS and JavaScript
    <table>
         <tr>
             <th>#</th>
