@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0px;
+    padding: 0px ; 
+}
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #333;
+    color: #222;
+    overflow-x: hidden;
+    margin: 0 ;
+}
+.container {
+
+    background-color: #fff;
+    min-height: 100vh;
+    width: 100vw;   
+    padding: 50px;
+    transform-origin: top left;
+    transition:transform linear .5s;
+}
+.content {
+    margin: 50px auto;
+    max-width: 1000px;
+}
+.content h3{
+    padding: 16px 0px;
+}
+.content small {
+    color :#555;
+    font-style: italic;
+}
+.content p{
+    color : #333;
+    line-height: 1.5;
+    margin: 16px 0 ;
+}
+.content img {
+    max-width:100%;
+} 
+.menu{
+    position: fixed;
+    top: -100px;
+    left: -100px;
+   
+}
+.menu-circle{
+    background-color: #ff7979;
+    height: 200px;
+    width: 200px;
+    border-radius:50%;
+    position: relative;
+    transition: transform linear .3s;
+
+}
+.menu-circle button {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100px;
+    background: transparent;
+    border: 0;
+    font-size: 26px;
+    color: #fff;
+
+}
+.menu-circle button.open{
+    left: 60%;
+}
+.menu-circle button.close{
+    top: 60%;
+    transform: rotate(90deg);
+    transform-origin: top left; 
+}
+.container.show-nav{
+    transform: rotate(-20deg);
+}
+.container.show-nav .menu-circle{
+    transform: rotate(-70deg);
+}
+nav{
+   position:fixed;
+   bottom:40px; 
+   left : 0 ;
+   z-index:10 ;
+}
+nav ul {
+    list-style: none;
+    padding-left: 30px;
+}
+nav ul li {
+    text-transform: uppercase;
+    color:#fff;
+    margin: 40px 0 ;
+    transform: translateX(-100%);
+    transition : transform ease-in .4s;
+}
+.container.show-nav + nav li {
+    transform: translateX(0);
+    transition-delay: .3s;
+}
+nav ul li i{
+    font-size: 20px;
+    margin-right: 10px;
+}
