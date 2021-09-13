@@ -17,7 +17,12 @@
         </tr>
       <tr>
             <th>3</th>
-            <th><a href="https://github.com/phantranthelinh/mini-projects/tree/main/rotating%20navigation">Rotating Navigation</a></th>
+            <th><a href="https://github.com/phantranthelinh/mini-projects/tree/main/rotating%20navigation">Rotating Navigation Animation</a></th>
             <th><a target="_blank" href="https://relaxed-varahamihira-5cb6d2.netlify.app/">Live demo</a></th>
+        </tr>
+    <tr>
+            <th>4</th>
+            <th><a href="https://github.com/phantranthelinh/mini-projects/tree/main/hidden%20search%20widget">Hidden Search Widget</a></th>
+            <th><a target="_blank" href="https://peaceful-allen-7348b4.netlify.app/">Live demo</a></th>
         </tr>
     </table>
