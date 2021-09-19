@@ -25,4 +25,9 @@
             <th><a href="https://github.com/phantranthelinh/mini-projects/tree/main/hidden%20search%20widget">Hidden Search Widget</a></th>
             <th><a target="_blank" href="https://peaceful-allen-7348b4.netlify.app/">Live demo</a></th>
         </tr>
+     <tr>
+            <th>5</th>
+            <th><a href="https://github.com/phantranthelinh/mini-projects/tree/main/scroll-animation">Scroll Animation</a></th>
+            <th><a target="_blank" href="https://phantranthelinh.github.io/mini-projects/scroll-animation/">Live demo</a></th>
+        </tr>
     </table>
