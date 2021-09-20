@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --color-left: rgba(87, 84, 236, 1);
+  --color-right: rgba(28, 122, 28, 1);
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+#container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #ccc;
+}
+.split {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.split h1 {
+  position: absolute;
+  top: 30%;
+  color: #fff;
+  font-size: 3rem;
+  left: 50%;
+  white-space: nowrap;
+  transform: translateX(-50%);
+}
+.split.left {
+  left: 0;
+  background-image: url(./img/bg-left.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.split.right {
+  right: 0;
+  background-image: url(./img/bg-right.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 50%;
+  top: 40%;
+  text-decoration: none;
+  color: #fff;
+  border: 0.2rem solid #fff;
+  width: 15rem;
+  padding: 1.5rem;
+  transform: translateX(-50%);
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+.split.left .btn:hover {
+  background-color: var(--color-left);
+  border-color: var(--color-left);
+}
+.split.right .btn:hover {
+  background-color: var(--color-right);
+  border-color: var(--color-right);
+}
+.split.left::before {
+  content: "";
+  background-color: var(--color-left);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.5;
+}
+.split.right::before {
+  content: "";
+  background-color: var(--color-right);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.5;
+}
+.split.left,
+.split.right,
+.split.right::before,
+.split.left::before {
+  transition: all 1s ease-in-out;
+}
