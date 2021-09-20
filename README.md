@@ -30,4 +30,9 @@
             <th><a href="https://github.com/phantranthelinh/mini-projects/tree/main/scroll-animation">Scroll Animation</a></th>
             <th><a target="_blank" href="https://phantranthelinh.github.io/mini-projects/scroll-animation/">Live demo</a></th>
         </tr>
+   <tr>
+            <th>6</th>
+            <th><a href="https://github.com/phantranthelinh/mini-projects/tree/main/split-landing-page">Split Landing Page</a></th>
+            <th><a target="_blank" href="https://phantranthelinh.github.io/mini-projects/split-landing-page/">Live demo</a></th>
+        </tr>
     </table>
