@@ -47,7 +47,7 @@
         </tr>
        <tr>
             <th>8</th>
-            <th><a href="https://github.com/phantranthelinh/mini-projects/tree/main/dad-jokes">Dad Jokes</a></th>
-            <th><a target="_blank" href="https://phantranthelinh.github.io/mini-projects/dad-jokes/">Live demo</a></th>
+            <th><a href="https://github.com/phantranthelinh/mini-projects/tree/main/Dad-jokes">Dad Jokes</a></th>
+            <th><a target="_blank" href="https://phantranthelinh.github.io/mini-projects/Dad-jokes/">Live demo</a></th>
         </tr>
     </table>
