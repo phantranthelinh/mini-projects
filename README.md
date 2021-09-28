@@ -55,4 +55,9 @@
             <th><a href="https://github.com/phantranthelinh/mini-projects/tree/main/event-keycodes">Event KeyCodes</a></th>
             <th><a target="_blank" href="https://phantranthelinh.github.io/mini-projects/event-keycodes/">Live demo</a></th>
         </tr>
+        <tr>
+            <th>11</th>
+            <th><a href="https://github.com/phantranthelinh/mini-projects/tree/main/faq">FAQ</a></th>
+            <th><a target="_blank" href="https://phantranthelinh.github.io/mini-projects/faq/">Live demo</a></th>
+        </tr>
     </table>
