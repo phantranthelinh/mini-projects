@@ -46,8 +46,13 @@
             <th><a target="_blank" href="https://phantranthelinh.github.io/mini-projects/sound-board/">Live demo</a></th>
         </tr>
        <tr>
-            <th>8</th>
+            <th>9</th>
             <th><a href="https://github.com/phantranthelinh/mini-projects/tree/main/Dad-jokes">Dad Jokes</a></th>
             <th><a target="_blank" href="https://phantranthelinh.github.io/mini-projects/Dad-jokes/">Live demo</a></th>
+        </tr>
+     <tr>
+            <th>10</th>
+            <th><a href="https://github.com/phantranthelinh/mini-projects/tree/main/event-keycodes">Event KeyCodes</a></th>
+            <th><a target="_blank" href="https://phantranthelinh.github.io/mini-projects/event-keycodes/">Live demo</a></th>
         </tr>
     </table>
