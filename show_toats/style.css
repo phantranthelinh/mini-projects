@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    min-height: 100vh;
+
+}
+body > div {
+  
+}
+#toats{
+    position: fixed;
+    top:16px;
+    right:32px;
+}
+.toats{
+    display:flex;
+    align-items:center;
+    border-left: 8px solid #000;
+    cursor: default;
+    padding:20px 0px;
+    min-width: 400px;
+    max-width: 450px;
+    border-radius: 4px;
+    box-shadow: 8px 4px 4px rgba(0,0,0,0.4);
+    background-color: #fff;
+    z-index: 9999999;
+    transition: all linear 0.3s;
+}
+@keyframes slideInLeft {
+    from{
+        opacity: 0;
+        transform: translateX(calc(100% + 32px));
+    }
+    to{
+        opacity: 1;
+        transform:translateX(0);
+    }
+}
+@keyframes fadeOut {
+    to{
+        opacity: 0;
+    }
+}
+.toats + .toats{
+    margin-top:16px;
+}
+.toats__icon, .toats__close{
+    padding:0 16px;
+}
+.toats__body{
+    flex:1;
+}
+.toats__title{
+    font-weight: 700;
+}
+.toats__msg{
+    font-size: 16px;
+}
+.toats__close{
+    font-size:20px;
+    cursor: pointer;
+    opacity:0.4;
+    
+}
+.toats--success  .toats__icon{
+    color:green;
+}
+.toats--info .toats__icon{
+    color:blue;
+}
+.toats--warning .toats__icon{
+    color:yellow;
+}
+.toats--error .toats__icon{
+    color:red;
+}
+.toats--success{
+    border-color:green;
+}
+.toats--info{
+    border-color:blue;
+}
+.toats--warning{
+    border-color:yellow;
+}
+.toats--error{
+    border-color:red;
+}
+.btn-group{
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    padding: 8px 16px;
+    color :#fff;
+    border-radius:20px;
+    cursor: pointer;
+    text-align: center;
+}
+.btn + .btn{
+    margin-top: 32px;
+}
+.btn--success{
+    background-color: green;
+}
+.btn--info{
+    background-color: blue;
+}
+.btn--warning{
+    background-color: yellow;
+}
+.btn--error{
+    background-color: red;
+}
