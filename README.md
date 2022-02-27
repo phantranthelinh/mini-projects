@@ -65,4 +65,9 @@
             <th><a href="https://github.com/phantranthelinh/mini-projects/tree/main/show_toats">Show toats</a></th>
             <th><a target="_blank" href="https://phantranthelinh.github.io/mini-projects/show_toats/">Live demo</a></th>
         </tr>
+      <tr>
+            <th>13/th>
+            <th><a href="https://github.com/phantranthelinh/mini-projects/tree/main/promotion">Promotion</a></th>
+            <th><a target="_blank" href="https://phantranthelinh.github.io/mini-projects/promotion/">Live demo</a></th>
+        </tr>
     </table>
