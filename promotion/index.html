@@ -1,0 +1,82 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promotion</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .promotion__item {
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: #fff;
+        padding: 16px 0;
+        display: none;
+    }
+
+    .promotion__item.show {
+        display: block;
+    }
+
+    .bg-black {
+        background-color: #000;
+    }
+
+    .bg-brown {
+        background-color: brown;
+    }
+
+    .bg-primary {
+        background-color: cyan;
+    }
+
+    .banner img {
+        width: 100%;
+        height: calc(100% - 59px);
+    }
+</style>
+
+<body>
+    <div class="promotion">
+        <p class="promotion__item bg-brown show">Hot sale !!!!!!!!!!! 50% up to sale</p>
+        <p class="promotion__item bg-black ">New season collection! Check out information</p>
+        <p class="promotion__item bg-primary">Nhà phân phối độc quyền nhãn hàng Louis Vuitton và Gucci tại Việt Nam</p>
+    </div>
+    <div class="banner">
+        <img src="https://mona.media/wp-content/uploads/2021/06/banner-giay.png" alt="banner">
+    </div>
+</body>
+<script type="text/javascript">
+    (function main() {
+        let index = 1;
+        const promotionArray = document.querySelectorAll('.promotion__item');
+
+        setInterval(function () {
+            const prevPromotion = document.querySelector('.promotion__item.show');
+
+            if (prevPromotion !== null) {
+                prevPromotion.classList.remove('show');
+            }
+            promotionArray[index].classList.add('show');
+
+            if (index >= promotionArray.length - 1) {
+                promotionArray[index - 1].classList.remove('show');
+
+                index = 0;
+            }
+            else {
+                index++;
+            }
+        }, 2000);
+    })()
+</script>
+
+</html>
