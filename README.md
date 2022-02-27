@@ -8,7 +8,7 @@
         <tr>
             <th>1</th>
             <th><a href="https://github.com/phantranthelinh/projects-in-50-days/tree/main/expanding%20cards">Expanding cards</a></th>
-            <th><a target="_blank" href="https://blissful-mclean-81e603.netlify.app/">Live demo</a></th>
+            <th><a target="_blank" href="https://phantranthelinh.github.io/mini-projects/expanding%20cards//">Live demo</a></th>
         </tr>
         <tr>
             <th>2</th>
