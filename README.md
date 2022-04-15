@@ -75,4 +75,9 @@
             <th><a href="https://github.com/phantranthelinh/mini-projects/tree/main/countdown">Countdown</a></th>
             <th><a target="_blank" href="https://phantranthelinh.github.io/mini-projects/countdown/">Live demo</a></th>
         </tr>
+      <tr>
+            <th>14</th>
+            <th><a href="https://github.com/phantranthelinh/mini-projects/tree/main/snake-game">Snake game</a></th>
+            <th><a target="_blank" href="https://phantranthelinh.github.io/mini-projects/snake-game/">Live demo</a></th>
+        </tr>
     </table>
