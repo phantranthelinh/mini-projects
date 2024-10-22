@@ -80,4 +80,9 @@
             <th><a href="https://github.com/phantranthelinh/mini-projects/tree/main/snake-game">Snake game</a></th>
             <th><a target="_blank" href="https://phantranthelinh.github.io/mini-projects/snake-game/">Live demo</a></th>
         </tr>
+         <tr>
+            <th>15</th>
+            <th><a href="https://github.com/phantranthelinh/mini-projects/tree/main/word-count">Word count</a></th>
+            <th><a target="_blank" href="https://phantranthelinh.github.io/mini-projects/word-count/">Live demo</a></th>
+        </tr>
     </table>

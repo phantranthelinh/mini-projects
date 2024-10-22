@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Word count</title>
+  </head>
+  <body>
+    <div class="container">
+      <textarea name="" id="" placeholder="Enter your text here"> </textarea>
+      <div class="output-container">
+        <div class="output">
+          <p class="words">Words</p>
+          <span data-word-count>0</span>
+        </div>
+        <div class="output">
+          <p class="characters">Characters</p>
+          <span data-character-count>0</span>
+        </div>
+        <div class="output">
+          <p class="sentenses">Sentenses</p>
+          <span data-sentense-count>0</span>
+        </div>
+        <div class="output">
+          <p class="paragraphs">Paragraphs</p>
+          <span data-paragraph-count>0</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
