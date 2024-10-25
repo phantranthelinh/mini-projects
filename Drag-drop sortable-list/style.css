@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+.sortable-list {
+  padding: 2rem;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  gap: 1rem;
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 14rem;
+  padding: 1.4rem 1rem;
+  border: 1px solid #000;
+  border-radius: 0.5rem;
+  gap: 0.5rem;
+}
+.item:hover {
+  cursor: pointer;
+  background-color: #eee;
+}
+
+.item.dragging {
+  opacity: 0.6;
+}
+
+.item.dragging :where(.details, i) {
+  opacity: 0;
+}
