@@ -92,8 +92,8 @@
         </tr>
            <tr>
             <th>16</th>
-            <th><a href="https://github.com/phantranthelinh/mini-projects/tree/main/Drap%20and%20drop%20sortabled%list">Drag and drop sortable list</a></th>
-            <th><a target="_blank" href="https://phantranthelinh.github.io/mini-projects/Drap%20and%20drop%20sortabled%list/">Live demo</a></th>
+            <th><a href="https://github.com/phantranthelinh/mini-projects/tree/main/Drag-drop%20sortable-list">Drag and drop sortable list</a></th>
+            <th><a target="_blank" href="https://phantranthelinh.github.io/mini-projects/Drag-drop%20sortable-list/">Live demo</a></th>
         </tr>
 
         
