@@ -93,7 +93,7 @@
            <tr>
             <th>16</th>
             <th><a href="https://github.com/phantranthelinh/mini-projects/tree/main/Drap%20and%20drop%20sortabled%list">Drag and drop sortable list</a></th>
-            <th><a target="_blank" href="https://phantranthelinh.github.io/mini-projects/3d-hover-effect/">Live demo</a></th>
+            <th><a target="_blank" href="https://phantranthelinh.github.io/mini-projects/Drap%20and%20drop%20sortabled%list/">Live demo</a></th>
         </tr>
 
         
